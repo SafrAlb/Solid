@@ -10,12 +10,4 @@ namespace Solid
     {
         void PrintEmployeeInfo(Employee employee, double salary);
     }
-
-    public class ConsoleEmployeePrint : IEmployeePrint
-    {
-        public void PrintEmployeeInfo(Employee employee, double salary)
-        {
-            Console.WriteLine($"Сотрудник: {employee.Name}, Зарплата: {salary}");
-        }
-    }
 }

@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsoleEmployeePrint.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="FixedSalaryCalculator.cs" />
     <Compile Include="HourlySalaryCalculator.cs" />
